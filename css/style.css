@@ -1,0 +1,229 @@
+
+/*Desktop*/
+
+    @media screen and (min-width: 1024px) {
+        .section-servicios{
+            grid-template-areas: 
+            "caja-1 caja-2 caja-3";
+            
+        }
+
+    }
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section-servicios{
+        grid-template-areas: 
+        "caja-1" 
+        "caja-2" 
+        "caja-3";
+        justify-content: center;
+    }
+
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 767px) {
+
+    .section-servicios{
+        grid-template-areas: 
+        "caja-1" 
+        "caja-2" 
+        "caja-3";
+        justify-content: center;
+    }
+
+}
+
+
+/*Grid*/
+.grid-area{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "footer";
+}
+
+
+/*header */
+
+    header{
+    background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(255, 255, 255));
+    grid-area: header;
+    }
+
+
+    
+    .header__logo{
+        display: flex;
+        display: inline-block;
+        position: absolute;
+        margin-left: 30px;
+}
+
+
+/*Body */
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+/*Nav */
+
+    nav{
+        background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(209, 207, 207));
+        grid-area: links;
+
+    }
+
+    nav ul{
+    
+    list-style: none;
+    text-align: center;
+
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+    }
+    .nav__item{
+        display: inline-block;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: 20px;
+    }
+
+/*Main */
+
+    #titulo{
+    color: rgb(255, 187, 0);    
+    }
+
+    .div{
+        text-align: center;
+    }
+
+
+    .div__formulario{  
+        border: 2px solid rgb(110, 109, 109);
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 50px;
+    }
+
+    .section-1{
+        grid-area: section-1;
+    }
+
+    .section-2{
+        grid-area: section-2;
+    }     
+
+    .section-2__listado{
+        list-style: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 136, 0);
+    }
+
+    .div__slider{
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .section-servicios{
+        display: grid;
+
+        justify-content: space-between;
+        
+    }
+    .section-servicios__caja-1{
+        background-color: rgb(148, 148, 148);
+        grid-area: caja-1;
+    }
+    .section-servicios__caja-2{
+            background-color: rgb(148, 148, 148);
+            grid-area: caja-2;
+    }
+    .section-servicios__caja-3{
+        background-color: rgb(148, 148, 148);
+        grid-area: caja-3;
+}
+
+    .section-servicios__titulo{
+        color: rgb(255, 255, 255);
+    }
+
+ /*contenedor padre */
+    .container-1{
+        background-color: #f1f1f1;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+ /*contenedor hijos */
+    .container-1__caja{
+        background-color: rgb(255, 136, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .container-1__img{
+        width: 100%;
+        height: auto;
+    }
+
+
+/*Footer */
+
+    footer{
+        bottom: 0;
+        background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(209, 207, 207));
+        justify-content: center;
+        align-items: center;
+        grid-area: footer;
+    }
+
+    footer p{
+    color: rgb(255, 255, 255);
+    }
+
+    .footer__links{
+        list-style: none;
+    }
+
+    .footer__links{
+        text-decoration: none;
+        text-align: center;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .footer__link{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .footer__logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    .footer__redes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:  center;
+        align-items: center;
+    }
