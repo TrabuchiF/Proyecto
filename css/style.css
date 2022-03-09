@@ -49,7 +49,7 @@
 /*header */
 
     header{
-    background-color: rgb(110, 109, 109);
+    background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(255, 255, 255));
     grid-area: header;
     }
 
@@ -72,7 +72,7 @@
 /*Nav */
 
     nav{
-        background-color: rgb(110, 109, 109);
+        background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(209, 207, 207));
         grid-area: links;
 
     }
@@ -191,7 +191,7 @@
 
     footer{
         bottom: 0;
-        background-color: rgb(110, 109, 109);
+        background-image: linear-gradient(to right,rgb(110, 109, 109),rgb(209, 207, 207));
         justify-content: center;
         align-items: center;
         grid-area: footer;
