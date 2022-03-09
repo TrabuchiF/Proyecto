@@ -138,6 +138,8 @@
         display: grid;
 
         justify-content: space-between;
+
+
         
     }
     .section-servicios__caja-1{
@@ -172,7 +174,6 @@
 
  /*contenedor hijos */
     .container-1__caja{
-        background-color: rgb(255, 136, 0);
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -181,10 +182,12 @@
         margin-right: 200px;
     }
 
-    .container-1__img{
+    .container-1__img:hover{
         width: 100%;
         height: auto;
+        transition: width 2s; 
     }
+
 
 
 /*Footer */
