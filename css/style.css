@@ -99,7 +99,8 @@
 /*Main */
 
     #titulo{
-    color: rgb(255, 187, 0);    
+    color: rgb(255, 187, 0);
+    margin-top: 30px;    
     }
 
     .div{
@@ -120,6 +121,10 @@
 
     .section-2{
         grid-area: section-2;
+        margin-top: 20px;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-bottom: 30px;
     }     
 
     .section-2__listado{
@@ -136,11 +141,11 @@
 
     .section-servicios{
         display: grid;
-
         justify-content: space-between;
-
-
-        
+        margin-top: 30px;
+        margin-bottom: 70px;
+        margin-left: 70px;
+        margin-right: 70px;   
     }
     .section-servicios__caja-1{
         background-color: rgb(148, 148, 148);
